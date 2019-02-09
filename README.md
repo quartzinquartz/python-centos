@@ -1,4 +1,4 @@
-# python-image-centos
+# python-centos
 
 A container for python development with vim on centos. Includes rh-python36 package; run python 3.6.5 via alias `scl-py3`
 
