@@ -40,5 +40,5 @@ parse_git_dirty() {
   fi
 }
 
-export PS1="\[\e[36m\]\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\] $ "
+export PS1="\[\e[34m\]\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\] \[\e[36m\]$\[\e[m\] "
 alias scl-py3="scl enable rh-python36 bash"
