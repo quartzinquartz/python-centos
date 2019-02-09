@@ -1,7 +1,7 @@
 FROM centos:latest
 
 RUN yum update -y; \
-    yum install -y git vim-enhanced words lsof; \
+    yum install -y git vim-enhanced words lsof wget; \
     yum groupinstall 'Development Tools'; \
     yum -y install centos-release-scl; \
     yum -y install rh-python36; \
