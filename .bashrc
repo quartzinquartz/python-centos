@@ -40,5 +40,14 @@ parse_git_dirty() {
   fi
 }
 
+#
+# PS1 Prompt
+#
 export PS1="\[\e[34m\]\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\] \[\e[36m\]$\[\e[m\] "
+
+#
+# Aliases
+#
 alias scl-py3="scl enable rh-python36 bash"
+alias ll="ls -lAF"
+alias la="ls -lAF"
